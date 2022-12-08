@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>My Library</h1>
+
+        <div class="form">
+            <form class="book-form">
+                <div class="input-group">
+                    <label for="title">Book</label>
+                    <input type="text" name="title" id="title" required>
+                </div>
+                <div class="input-group">
+                    <label for="author">Author</label>
+                    <input type="text" name="author" id="author" required>
+                </div>
+                <div class="input-group">
+                    <label for="pages">Pages</label>
+                    <input type="text" name="pages" id="pages" required>
+                </div>
+                <div class="input-group">
+                    <label for="read">Read?</label>
+                    <select name="read" id="read">
+                        <option value="Read">Read</option>
+                        <option value="Not read">Not read</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <input type="submit">
+                </div>
+            </form>
+        </div>
+        <div id="libraryGrid" class="library-grid">
+        </div>
+    </div>
+</body>
+</html>

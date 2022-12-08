@@ -1,0 +1,38 @@
+.card {
+    height: 80px;
+    border: 2px;
+    border-color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+}
+
+.book-form {
+    display: flex;
+    gap: 20px;
+}
+
+.library-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.book-card {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;   
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.button-group {
+    gap: 5px;   
+    display: flex;
+    flex-direction: column;
+}
